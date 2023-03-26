@@ -1,5 +1,5 @@
 
-.title{
+.main-title{
     background-color:rgb(246,191,173);
     padding: 30px;
     color:white;
@@ -10,6 +10,40 @@
     border-radius: 50%;
 }
 
+.title{
+    padding: 30px;
+    color:rgb(246,191,173);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .image{
     text-align: center;
+}
+
+.about{
+    margin-top: 50px;
+    border-style: solid;
+    color:rgb(158, 198, 218);
+    font-size: 24px;
+    padding-left: 50px;
+}
+
+.explanation{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.footer{
+    background-color:rgb(246,191,173);
+    padding: 30px;
+    margin-top:50px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;  
+    border-radius: 50%;  
 }
