@@ -85,6 +85,7 @@
     padding:10px;
     background-color:rgb(246,191,173);
     color: white;
+    border-radius: 15%;
   }
   
   .show-description .description {
