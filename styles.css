@@ -47,3 +47,47 @@
     text-align: center;  
     border-radius: 50%;  
 }
+
+.gallery {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    flex: 1 1 25%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .gallery {
+      flex-direction: column;
+    }
+    
+    .card {
+      flex: 1 1 auto;
+    }
+  }
+  
+  .description {
+    display: none;
+    font-size: large;
+    color:black;
+
+  }
+  .toggle-description{
+    padding:10px;
+    background-color:rgb(246,191,173);
+    color: white;
+  }
+  
+  .show-description .description {
+    display: block;
+  }
+  
